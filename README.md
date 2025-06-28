@@ -1,22 +1,32 @@
-# kDTree Legacy Project
-This tiny repo is my first ever project written in C++ during my month-long internship in the Nédélec group at the [Sainsbury Laboratory in Cambridge](https://www.slcu.cam.ac.uk/) (2023).
+# kDTree Legacy Project 
+This repository contains my first ever project written in C++, developed during a month-long internship in the Nédélec group at the [Sainsbury Laboratory, University of Cambridge](https://www.slcu.cam.ac.uk/) (2023).
 
-## Overview:
-This took place in the summer interim between my 2nd and 3rd year of my undergrad. I began to develop a curiosity for computational thinking and was looking for ways it could be used in biological disciplines. 
+## Overview 
+The work took place during the summer between my 2nd and 3rd year of undergraduate study. I was beginning to develop a curiosity for computational thinking and how it might support biological research. This project was my first experience with systems-level coding, and I was particularly interested in pointer manipulation and memory layout.
 
-### Goal:
-- Write my own KD-tree implementation (datastructure and NNS) 
-I had a particular interest in pointers. This code is not necessarily computationally-oriented or wisely designed.
+## Project Goal 
+Implement a custom k-d tree data structure with nearest neighbour search (NNS)
 
-### Rationale:
-My post-doc supervisor was developing 'Trichomsim', a computational model of a plant trichome cell
+Apply it to spatial mesh point data generated from TrichomeSim, a cell geometry simulator for plant trichomes
 
-The simulation featured a 3D mesh point cloud with thousands of points, making for an inefficient brute-force NNS.
+The simulation used a dense 3D point cloud to represent cortical microtubule arrays. Brute-force search methods proved computationally expensive, prompting me to explore spatial partitioning techniques as a way of reducing complexity.
 
-This was an avenue explored for the sake of its optimisation.
+## Rationale 
+My postdoc supervisor was developing TrichomeSim, a simulator for microtubule behavior on realistic plant cell surfaces. The simulator generated tens of thousands of 3D mesh points, which required efficient search methods to map microtubule positions and orientations.
 
-## Outcomes:
-I presented an [academic poster](./academic_poster.pdf) at the Gatbsy Plant Science conference, Oxford (September 2023).
+This project explored whether a k-d tree implementation could improve query performance — or at least build intuition for how such structures behave.
 
-## Funding:
-I secured funding for this internship from [The Gatsby Charitable Foundation](https://www.gatsby.org.uk/plant-science/programmes/sainsbury-undergraduate-studentships).
+## Outcomes 
+Implemented from scratch a recursive k-d tree in C++ with:
+- Pointer-based node creation 
+- Median splitting and hyperplane partitioning 
+- Simple nearest-neighbour query 
+
+- Presented a [poster](./academic_poster.pdf) on the work at the Gatsby Plant Science Network Conference, Oxford (Sept 2023) 
+
+## Funding 
+This internship was funded by The Gatsby Charitable Foundation under the Sainsbury Undergraduate Studentship Scheme.
+
+## About 
+A hand-coded, pointer-driven spatial search tool built as my first exploration of algorithmic thinking in C++. Not optimised, but deeply formative.
+
