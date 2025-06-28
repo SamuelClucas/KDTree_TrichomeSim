@@ -10,7 +10,7 @@ I had a particular interest in pointers. This code is not necessarily computatio
 
 ### Rationale:
 My post-doc supervisor was developing 'Trichomsim', a computational model of a plant trichome cell
-<img src="[image_url]([https://github.com/user-attachments/assets/0c8226a1-87e5-4180-acb0-8c8f59a7d651](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpropg.ifas.ufl.edu%2F01-biology%2F02-cell-types%2F11-celltypes-trichome.html&psig=AOvVaw3xQzdTDQc5HnOM1FSNyclb&ust=1751207505012000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDXhr-qlI4DFQAAAAAdAAAAABAE)" width="300" height="300" alt="Plant trichome cell">.
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpropg.ifas.ufl.edu%2F01-biology%2F02-cell-types%2F11-celltypes-trichome.html&psig=AOvVaw3xQzdTDQc5HnOM1FSNyclb&ust=1751207505012000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDXhr-qlI4DFQAAAAAdAAAAABAE" width="300" height="300" alt="Plant trichome cell">.
 
 The simulation featured a 3D mesh point cloud with thousands of points, making for an inefficient brute-force NNS.
 
