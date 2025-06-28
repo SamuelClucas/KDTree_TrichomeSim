@@ -20,5 +20,3 @@ I presented an [academic poster](./academic_poster.pdf) at the Gatbsy Plant Scie
 
 ## Funding:
 I secured funding for this internship from [The Gatsby Charitable Foundation](https://www.gatsby.org.uk/plant-science/programmes/sainsbury-undergraduate-studentships).
-
-Ps. I also wrote a small python program toward the end of my time there. See [here](./MT_Plot/).
