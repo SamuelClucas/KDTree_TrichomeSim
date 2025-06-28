@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0c8226a1-87e5-4180-acb0-8c8f59a7d651)# kDTree Legacy Project
+# kDTree Legacy Project
 This tiny repo is my first ever project written in C++ during my month-long internship in the Nédélec group at the [Sainsbury Laboratory in Cambridge](https://www.slcu.cam.ac.uk/) (2023).
 
 ## Overview:
@@ -9,7 +9,8 @@ This took place in the summer interim between my 2nd and 3rd year of my undergra
 I had a particular interest in pointers. This code is not necessarily computationally-oriented or wisely designed.
 
 ### Rationale:
-My post-doc supervisor was developing 'Trichomsim', a computational model of a plant trichome cell.
+My post-doc supervisor was developing 'Trichomsim', a computational model of a plant trichome cell
+<img src="[image_url](https://github.com/user-attachments/assets/0c8226a1-87e5-4180-acb0-8c8f59a7d651)" width="300" height="300" alt="Plant trichome cell">.
 
 The simulation featured a 3D mesh point cloud with thousands of points, making for an inefficient brute-force NNS.
 
