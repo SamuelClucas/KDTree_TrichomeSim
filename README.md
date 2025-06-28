@@ -1,4 +1,4 @@
-# kDTree Legacy Project 
+# KDTree Legacy Project 
 This repository contains my first ever project written in C++, developed during a month-long internship in the Nédélec group at the [Sainsbury Laboratory, University of Cambridge](https://www.slcu.cam.ac.uk/) (2023).
 
 ## Overview 
