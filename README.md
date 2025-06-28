@@ -16,7 +16,7 @@ The simulation featured a 3D mesh point cloud with thousands of points, making f
 This was an avenue explored for the sake of its optimisation.
 
 ## Outcomes:
-See my academic poster, presented in September 2023 at the Gatbsy Plant Science conference, Oxford.
+I presented an [academic poster](./academic_poster.pdf) at the Gatbsy Plant Science conference, Oxford (September 2023).
 
 ## Funding:
 I secured funding for this internship from [The Gatsby Charitable Foundation](https://www.gatsby.org.uk/plant-science/programmes/sainsbury-undergraduate-studentships).
