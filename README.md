@@ -8,7 +8,7 @@ The work took place during the summer between my 2nd and 3rd year of undergradua
 Implement a custom k-d tree data structure with nearest neighbour search (NNS)
 
 Apply it to spatial mesh point data generated from TrichomeSim, a cell geometry simulator for plant trichomes
-<img src="./lib/trichomeGif.png" width= "200" height= "200">
+![GIF of a trichome](./lib/trichomeGif.gif)
 
 <img src="./lib/mesh.png" width= "200" height= "200"> <img src="./lib/pointCloud.png" width= "200" height= "200">
 
