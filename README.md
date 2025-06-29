@@ -8,6 +8,9 @@ The work took place during the summer between my 2nd and 3rd year of undergradua
 Implement a custom k-d tree data structure with nearest neighbour search (NNS)
 
 Apply it to spatial mesh point data generated from TrichomeSim, a cell geometry simulator for plant trichomes
+<img src="./lib/trichomeGif.png" width= "200" height= "200">
+
+<img src="./lib/mesh.png" width= "200" height= "200"> <img src="./lib/pointCloud.png" width= "200" height= "200">
 
 The simulation used a dense 3D point cloud to represent cortical microtubule arrays. Brute-force search methods proved computationally expensive, prompting me to explore spatial partitioning techniques as a way of reducing complexity.
 
@@ -17,10 +20,12 @@ My postdoc supervisor was developing TrichomeSim, a simulator for microtubule be
 This project explored whether a k-d tree implementation could improve query performance — or at least build intuition for how such structures behave.
 
 ## Outcomes 
-Implemented from scratch a recursive k-d tree in C++ with:
+[Implemented from scratch a recursive k-d tree in C++](./src/main.cpp) with:
 - Pointer-based node creation 
 - Median splitting and hyperplane partitioning 
-- Simple nearest-neighbour query 
+- Simple nearest-neighbour query
+
+Rewrote implementation into [Node](src/Node.cpp] class definition and its [header file](./include/Node.h).
 
 - Presented a [poster](./academic_poster.pdf) on the work at the Gatsby Plant Science Network Conference, Oxford (Sept 2023) 
 
